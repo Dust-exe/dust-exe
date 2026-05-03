@@ -60,7 +60,7 @@
 
 <img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-devops.svg" alt="DevOps & CI/CD" />
 
-GitHub Actions ile release/build pipeline'larını otomatikleştiriyor; Docker ile **ortam parity** ve belgelenmiş dağıtım hedefliyorum.
+GitHub Actions ile release/build pipeline’larını otomatikleştiriyor; Docker ile **ortam parity** ve belgelenmiş dağıtım hedefliyorum.
 
 <img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-vizyon.svg" alt="Vizyon" />
 
@@ -78,10 +78,10 @@ Topluluk ürünlerinde **güvenilirlik, gözlemlenebilirlik ve güvenli dağıt�
 
 <br/><br/>
 
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Dust-exe&show_icons=true&rank_icon=github&include_all_commits=true&hide_border=true&bg_color=0D1117&title_color=c4b5fd&icon_color=a78bfa&text_color=e9d5ff&ring_color=7c3aed&cache_seconds=7200" alt="GitHub stats" />
-<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dust-exe&layout=compact&hide_border=true&bg_color=0D1117&title_color=c4b5fd&text_color=e9d5ff&langs_count=8&cache_seconds=7200" alt="Top languages" />
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api?username=Dust-exe&show_icons=true&rank_icon=default&include_all_commits=true&hide_border=true&bg_color=145,0d1117,1e1b4b,4c1d95,a855f7,312e81,0d1117&title_color=f0abfc&icon_color=c4b5fd&text_color=f5f3ff&ring_color=f472b6&cache_seconds=7200" alt="GitHub stats" />
+<img height="165" src="https://github-readme-stats-eight-theta.vercel.app/api/top-langs/?username=Dust-exe&layout=compact&hide_border=true&bg_color=145,0d1117,1a1033,0d1117&title_color=f0abfc&text_color=f5f3ff&langs_count=8&cache_seconds=7200" alt="Top languages" />
 
-<img width="90%" src="https://streak-stats.demolab.com/?user=Dust-exe&hide_border=true&background=0D1117&stroke=7c3aed&ring=c4b5fd&fire=a78bfa&currStreakLabel=c4b5fd&sideLabels=e9d5ff&currStreakNum=ffffff&dates=8b949e" alt="GitHub streak" />
+<img width="90%" src="https://streak-stats.demolab.com/?user=Dust-exe&hide_border=true&background=165,0d1117,1a0f2e,581c87,0d1117&stroke=f472b6&ring=e879f9&fire=f472b6&currStreakNum=ffffff&currStreakLabel=f0abfc&sideNums=f5f3ff&sideLabels=e9d5ff&dates=c4b5fd&cache_seconds=7200" alt="GitHub streak" />
 
 <sub>İstatistikler çoğunlukla public aktiviteye dayanır; private repolar dil dağılımına kısmen yansımayabilir.</sub>
 

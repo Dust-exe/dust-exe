@@ -24,7 +24,11 @@
 
 ---
 
-### Rol & odak
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-rol-odak.svg" alt="Rol & odak" />
+
+<p align="center">
+  <img src="https://i.hizliresim.com/qwpotdl.png" alt="dust logo" width="120" />
+</p>
 
 **Freelance Software Developer & System Architect** — ölçeklenebilir topluluk ekosistemleri, full-stack web panelleri ve yüksek performanslı backend mimarileri üzerine çalışıyorum. Discord katmanını **operasyonel yüzey**; **otoriter durum ve iş kurallarını** ise **FastAPI + PostgreSQL** ve konteynerleşmiş servislerde konumlandırıyorum.
 
@@ -32,15 +36,13 @@
 
 ---
 
-## Featured ecosystem — OST Studio
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-featured-ost.svg" alt="Featured ecosystem — OST Studio" />
 
-<div align="center">
+<p align="center">
   <a href="https://oststudio.net/" title="OST Studio">
-    <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/oststudio-logo.png" alt="OST Studio logo" height="96" />
+    <img src="https://i.hizliresim.com/ck3ii25.png" alt="OST Studio logo" height="96" />
   </a>
-  &nbsp;&nbsp;&nbsp;
-  <img src="https://i.hizliresim.com/qwpotdl.png" alt="dust markası" height="96" />
-</div>
+</p>
 
 **[oststudio.net](https://oststudio.net/)** — amiral gemisi ürün: çoklu Discord servisleri, web paneli ve ekonomi/XP alanının **tek mimari çatı** altında birleştiği ekosistem.
 
@@ -54,7 +56,7 @@
 
 ---
 
-### Core engineering
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-core.svg" alt="Core engineering" />
 
 | Katman | Teknoloji |
 |--------|-----------|
@@ -63,11 +65,11 @@
 | Frontend | React, TypeScript, Vite, Tailwind CSS |
 | Infra | **Docker**, **Docker Compose**, **Nginx**, **Ubuntu**/Linux, systemd |
 
-### DevOps & CI/CD
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-devops.svg" alt="DevOps & CI/CD" />
 
 GitHub Actions ile release/build pipeline’larını otomatikleştiriyor; Docker ile **ortam parity** ve belgelenmiş dağıtım hedefliyorum.
 
-### Vizyon
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-vizyon.svg" alt="Vizyon" />
 
 Topluluk ürünlerinde **güvenilirlik, gözlemlenebilirlik ve güvenli dağıtım** öncelikli; uzun ömürlü kod tabanı ve otomasyonla ölçeklenen platformlar inşa etmeyi hedefliyorum.
 

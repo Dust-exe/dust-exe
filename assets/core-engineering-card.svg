@@ -1,0 +1,38 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="288" viewBox="0 0 920 288" role="img" aria-label="Core engineering stack">
+  <defs>
+    <linearGradient id="gline" x1="-240" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="35%" stop-color="#a855f7"/>
+      <stop offset="70%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 460 24" to="360 460 24" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="288" rx="12" fill="#0b1020" stroke="#7c3aed" stroke-opacity="0.45"/>
+  <text x="460" y="36" text-anchor="middle" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="800" fill="url(#gline)">Core engineering</text>
+  <line x1="24" y1="52" x2="896" y2="52" stroke="#7c3aed" stroke-opacity="0.35"/>
+  <text x="40" y="82" font-size="13" font-weight="700" fill="#a78bfa" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">Katman</text>
+  <text x="220" y="82" font-size="13" font-weight="700" fill="#a78bfa" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">Teknoloji</text>
+
+  <rect x="16" y="92" width="888" height="44" rx="8" fill="rgba(124,58,237,0.10)"/>
+  <text x="40" y="120" font-size="14" font-weight="700" fill="#cbd5e1" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">Backend</text>
+  <text x="220" y="120" font-size="14" fill="#e9d5ff" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">
+    <tspan>Python 3.12, </tspan><tspan fill="#f0abfc" font-weight="800">FastAPI</tspan><tspan>, async SQLAlchemy</tspan>
+  </text>
+
+  <rect x="16" y="140" width="888" height="44" rx="8" fill="rgba(124,58,237,0.06)"/>
+  <text x="40" y="168" font-size="14" font-weight="700" fill="#cbd5e1" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">Veri</text>
+  <text x="220" y="168" font-size="14" fill="#e9d5ff" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">
+    <tspan fill="#f0abfc" font-weight="800">PostgreSQL</tspan><tspan>, </tspan><tspan fill="#f0abfc" font-weight="800">Redis</tspan><tspan> (&#246;nbellek/kuyruk senaryolar&#305;), SQLite WAL</tspan>
+  </text>
+
+  <rect x="16" y="188" width="888" height="44" rx="8" fill="rgba(124,58,237,0.10)"/>
+  <text x="40" y="216" font-size="14" font-weight="700" fill="#cbd5e1" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">Frontend</text>
+  <text x="220" y="216" font-size="14" fill="#e9d5ff" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">React, TypeScript, Vite, Tailwind CSS</text>
+
+  <rect x="16" y="236" width="888" height="44" rx="8" fill="rgba(124,58,237,0.06)"/>
+  <text x="40" y="264" font-size="14" font-weight="700" fill="#cbd5e1" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">Infra</text>
+  <text x="220" y="264" font-size="14" fill="#e9d5ff" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif">
+    <tspan fill="#f0abfc" font-weight="800">Docker</tspan><tspan>, </tspan><tspan fill="#f0abfc" font-weight="800">Docker Compose</tspan><tspan>, </tspan><tspan fill="#f0abfc" font-weight="800">Nginx</tspan><tspan>, </tspan><tspan fill="#f0abfc" font-weight="800">Ubuntu</tspan><tspan>/Linux, systemd</tspan>
+  </text>
+</svg>

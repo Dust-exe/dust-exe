@@ -40,7 +40,7 @@
 
 <p align="center">
   <a href="https://oststudio.net/" title="OST Studio">
-    <img src="https://i.hizliresim.com/ck3ii25.png" alt="OST Studio logo" height="96" />
+    <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/oststudio-logo.png" alt="OST Studio logo" height="96" />
   </a>
 </p>
 
@@ -56,14 +56,7 @@
 
 ---
 
-<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-core.svg" alt="Core engineering" />
-
-| Katman | Teknoloji |
-|--------|-----------|
-| Backend | Python 3.12, **FastAPI**, async SQLAlchemy |
-| Veri | **PostgreSQL**, **Redis** (önbellek/kuyruk senaryoları), SQLite WAL |
-| Frontend | React, TypeScript, Vite, Tailwind CSS |
-| Infra | **Docker**, **Docker Compose**, **Nginx**, **Ubuntu**/Linux, systemd |
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/core-engineering-card.svg" alt="Core engineering" />
 
 <img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/h-devops.svg" alt="DevOps & CI/CD" />
 

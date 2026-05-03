@@ -1,5 +1,9 @@
 <div align="center">
 
+<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,45:5b21b6,100:a78bfa&height=190&section=header&text=Kaan%20%C3%87al%C4%B1%C5%9F&fontSize=42&fontColor=f5f3ff&animation=twinkling&fontAlignY=30&desc=Freelance%20Software%20Developer%20%26%20System%20Architect&descAlignY=54&descSize=14&descAlign=50" alt="header" />
+
+<br/>
+
 <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=650&color=C4B5FD&center=true&vCenter=true&width=760&lines=Freelance+Software+Developer+%26+System+Architect;%C3%96l%C3%A7eklenebilir+topluluk+ekosistemleri+%C2%B7+full-stack+paneller;%C4%B0stanbul+%C2%B7+Docker+%C2%B7+PostgreSQL+%C2%B7+GitHub+Actions" alt="Typing SVG" />
 
 <br/>

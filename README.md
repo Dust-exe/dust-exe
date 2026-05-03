@@ -1,6 +1,6 @@
 <div align="center">
 
-<img width="100%" src="https://capsule-render.vercel.app/api?type=waving&color=0:1e1b4b,45:5b21b6,100:a78bfa&height=190&section=header&text=Kaan%20%C3%87al%C4%B1%C5%9F&fontSize=42&fontColor=f5f3ff&animation=twinkling&fontAlignY=30&desc=Freelance%20Software%20Developer%20%26%20System%20Architect&descAlignY=54&descSize=14&descAlign=50" alt="header" />
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/header.svg" alt="Kaan Çalış — header" />
 
 <br/>
 
@@ -30,10 +30,10 @@
 
 <div align="center">
   <a href="https://oststudio.net/" title="OST Studio">
-    <img src="https://hizliresim.com/4sxtv2f" alt="OST Studio logo" height="96" />
+    <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/oststudio-logo.png" alt="OST Studio logo" height="96" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://hizliresim.com/f0ywvvq" alt="Kaan logo" height="96" />
+  <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/kaan-logo.png" alt="Kaan logo" height="96" />
 </div>
 
 **[oststudio.net](https://oststudio.net/)** — amiral gemisi ürün: çoklu Discord servisleri, web paneli ve ekonomi/XP alanının **tek mimari çatı** altında birleştiği ekosistem.

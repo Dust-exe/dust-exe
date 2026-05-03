@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="48" viewBox="0 0 920 48" role="img" aria-label="Rol &amp; odak">
+  <defs>
+    <linearGradient id="gline" x1="-240" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#f0abfc"/>
+      <stop offset="35%" stop-color="#a855f7"/>
+      <stop offset="70%" stop-color="#6366f1"/>
+      <stop offset="100%" stop-color="#f472b6"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 460 24" to="360 460 24" dur="14s" repeatCount="indefinite"/>
+    </linearGradient>
+  </defs>
+  <rect width="920" height="48" rx="10" fill="#0b1020" stroke="#7c3aed" stroke-opacity="0.45"/>
+  <text x="460" y="32" text-anchor="middle" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif" font-size="20" font-weight="800" fill="url(#gline)">Rol &amp; odak</text>
+</svg>

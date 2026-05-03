@@ -1,12 +1,18 @@
 <div align="center">
 
-<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/header.svg" alt="Kaan Çalış — header" />
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/header.svg" alt="dust exe — header" />
 
 <br/>
 
-<img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=24&duration=2600&pause=650&color=C4B5FD&center=true&vCenter=true&width=760&lines=Freelance+Software+Developer+%26+System+Architect;%C3%96l%C3%A7eklenebilir+topluluk+ekosistemleri+%C2%B7+full-stack+paneller;%C4%B0stanbul+%C2%B7+Docker+%C2%B7+PostgreSQL+%C2%B7+GitHub+Actions" alt="Typing SVG" />
+<img width="100%" src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/tagline-gradient.svg" alt="Stack — hareketli gradyan şerit" />
 
 <br/>
+
+<img src="https://img.shields.io/badge/Kaan-System%20Architect-7c3aed?style=for-the-badge&labelColor=0b1020" alt="Kaan — System Architect" />
+<img src="https://img.shields.io/badge/%C4%B0stanbul-VDS%20%2F%20EU-5b21b6?style=for-the-badge&labelColor=0b1020" alt="İstanbul" />
+<img src="https://img.shields.io/badge/GitHub-Dust--exe-a855f7?style=for-the-badge&labelColor=0b1020&logo=github&logoColor=white" alt="GitHub profil" />
+
+<br/><br/>
 
 <img src="https://komarev.com/ghpvc/?username=Dust-exe&label=Profil+ziyaret&color=7c3aed&style=for-the-badge" alt="Profil görüntülenme" />
 &nbsp;
@@ -33,15 +39,15 @@
     <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/oststudio-logo.png" alt="OST Studio logo" height="96" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/kaan-logo.png" alt="Kaan logo" height="96" />
+  <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/kaan-logo.png" alt="dust markası" height="96" />
 </div>
 
 **[oststudio.net](https://oststudio.net/)** — amiral gemisi ürün: çoklu Discord servisleri, web paneli ve ekonomi/XP alanının **tek mimari çatı** altında birleştiği ekosistem.
 
-- **Dağıtım & platform:** Docker Compose, **Ubuntu VDS**, Nginx, systemd; üretimde tutarlı runtime  
-- **Veri:** PostgreSQL + Alembic (panel), SQLite WAL (bot edge)  
-- **API & güvenlik:** FastAPI, async SQLAlchemy, OAuth2 (panel oturumu)  
-- **UI:** React 18, TypeScript, Vite, Tailwind, Framer Motion  
+- **Dağıtım & platform:** Docker Compose, **Ubuntu VDS**, Nginx, systemd; üretimde tutarlı runtime
+- **Veri:** PostgreSQL + Alembic (panel), SQLite WAL (bot edge)
+- **API & güvenlik:** FastAPI, async SQLAlchemy, OAuth2 (panel oturumu)
+- **UI:** React 18, TypeScript, Vite, Tailwind, Framer Motion
 - **DevOps / CI:** GitHub Actions ile **sürüm + yapı otomasyonu** (ör. PyInstaller / Inno release hatları), tekrarlanabilir artefakt üretimi
 
 > Mimari olarak botlar **edge arayüzüdür**; derinlik API tasarımı, veri modeli, gözlemlenebilirlik ve VDS yaşam döngüsündedir.

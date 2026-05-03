@@ -39,7 +39,7 @@
     <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/oststudio-logo.png" alt="OST Studio logo" height="96" />
   </a>
   &nbsp;&nbsp;&nbsp;
-  <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/kaan-logo.png" alt="dust markası" height="96" />
+  <img src="https://i.hizliresim.com/qwpotdl.png" alt="dust markası" height="96" />
 </div>
 
 **[oststudio.net](https://oststudio.net/)** — amiral gemisi ürün: çoklu Discord servisleri, web paneli ve ekonomi/XP alanının **tek mimari çatı** altında birleştiği ekosistem.

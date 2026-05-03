@@ -61,6 +61,10 @@
 
 GitHub Actions ile release/build pipeline’larını otomatikleştiriyor; Docker ile **ortam parity** ve belgelenmiş dağıtım hedefliyorum.
 
+### Vizyon
+
+Topluluk ürünlerinde **güvenilirlik, gözlemlenebilirlik ve güvenli dağıtım** öncelikli; uzun ömürlü kod tabanı ve otomasyonla ölçeklenen platformlar inşa etmeyi hedefliyorum.
+
 ---
 
 <div align="center">

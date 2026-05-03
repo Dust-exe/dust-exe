@@ -40,7 +40,7 @@
 
 <p align="center">
   <a href="https://oststudio.net/" title="OST Studio">
-    <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/oststudio-logo.png" alt="OST Studio logo" height="96" />
+    <img src="https://raw.githubusercontent.com/Dust-exe/dust-exe/main/assets/ost-logo-inline.svg" alt="OST Studio logo" height="96" />
   </a>
 </p>
 

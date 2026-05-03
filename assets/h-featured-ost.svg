@@ -1,15 +1,35 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="920" height="56" viewBox="0 0 920 56" role="img" aria-label="Featured ecosystem OST Studio">
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="64" viewBox="0 0 920 64" role="img" aria-label="Featured ecosystem OST Studio">
   <defs>
     <linearGradient id="gline" x1="-240" y1="0" x2="1160" y2="0" gradientUnits="userSpaceOnUse">
       <stop offset="0%" stop-color="#f0abfc"/>
       <stop offset="35%" stop-color="#a855f7"/>
       <stop offset="70%" stop-color="#6366f1"/>
       <stop offset="100%" stop-color="#f472b6"/>
-      <animateTransform attributeName="gradientTransform" type="rotate" from="0 460 28" to="360 460 28" dur="14s" repeatCount="indefinite"/>
+      <animateTransform attributeName="gradientTransform" type="rotate" from="0 460 32" to="360 460 32" dur="14s" repeatCount="indefinite"/>
     </linearGradient>
+    <linearGradient id="sheen" x1="0" y1="0" x2="920" y2="0">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0"/>
+      <stop offset="50%" stop-color="#c4b5fd" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#7c3aed" stop-opacity="0"/>
+    </linearGradient>
+    <radialGradient id="spot" cx="50%" cy="32%" r="68%">
+      <stop offset="0%" stop-color="#5b21b6" stop-opacity="0.42"/>
+      <stop offset="58%" stop-color="#0b1020" stop-opacity="0"/>
+    </radialGradient>
+    <filter id="glow" x="-12%" y="-18%" width="124%" height="140%">
+      <feGaussianBlur stdDeviation="2.2" result="b"/>
+      <feMerge>
+        <feMergeNode in="b"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
   </defs>
-  <rect width="920" height="56" rx="10" fill="#0b1020" stroke="#7c3aed" stroke-opacity="0.45"/>
-  <text x="460" y="26" text-anchor="middle" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="800" fill="url(#gline)">
+  <rect width="920" height="64" rx="12" fill="#0b1020"/>
+  <rect width="920" height="64" rx="12" fill="url(#spot)"/>
+  <rect x="0.5" y="0.5" width="919" height="63" rx="11.5" fill="none" stroke="#7c3aed" stroke-opacity="0.55" stroke-width="1"/>
+  <rect x="10" y="7" width="900" height="3" rx="1.5" fill="url(#gline)" opacity="0.88"/>
+  <rect x="14" y="58" width="892" height="1" fill="url(#sheen)" opacity="0.9"/>
+  <text x="460" y="30" text-anchor="middle" font-family="Segoe UI, ui-sans-serif, system-ui, sans-serif" font-size="15" font-weight="800" fill="url(#gline)" filter="url(#glow)">
     <tspan x="460" dy="0">Featured ecosystem</tspan>
     <tspan x="460" dy="20">&#8212; OST Studio</tspan>
   </text>

@@ -16,7 +16,7 @@
 
   <br/>
 
-  [![Location](https://img.shields.io/badge/%C4%B0stanbul-EU%20VDS-5b21b6?style=for-the-badge&labelColor=0b1020)](https://dust-studio.com/)
+  [![Location](https://img.shields.io/badge/%C4%B0stanbul-T%C3%BCrkiye-5b21b6?style=for-the-badge&labelColor=0b1020)](https://dust-studio.com/)
   [![Profile Views](https://komarev.com/ghpvc/?username=Dust-exe&label=Profil+Ziyareti&color=7c3aed&style=for-the-badge)](https://github.com/Dust-exe)
 
 </div>

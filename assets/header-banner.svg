@@ -1,30 +1,46 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="100%" height="100%">
   <defs>
-    <!-- Deep Space Galaxy Gradient -->
+        <style>
+      @keyframes starPulse {
+        0%, 100% { opacity: 0.2; transform: scale(0.8); }
+        50% { opacity: 1; transform: scale(1.3); }
+      }
+      @keyframes floatGlow {
+        0%, 100% { opacity: 0.25; transform: translate(0, 0); }
+        50% { opacity: 0.55; transform: translate(15px, -10px); }
+      }
+      @keyframes shimmerBorder {
+        0% { stop-color: #4c1d95; }
+        50% { stop-color: #d946ef; }
+        100% { stop-color: #4c1d95; }
+      }
+      .star1 { animation: starPulse 3s infinite ease-in-out; }
+      .star2 { animation: starPulse 2.2s infinite ease-in-out 0.7s; }
+      .star3 { animation: starPulse 4s infinite ease-in-out 1.4s; }
+      .nebula { animation: floatGlow 8s infinite ease-in-out; }
+    </style>
     <linearGradient id="spaceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
-      <stop offset="0%" stop-color="#05020d" />
-      <stop offset="35%" stop-color="#120626" />
-      <stop offset="70%" stop-color="#21083c" />
-      <stop offset="100%" stop-color="#070214" />
+      <stop offset="0%" stop-color="#04020a" />
+      <stop offset="40%" stop-color="#110524" />
+      <stop offset="75%" stop-color="#200738" />
+      <stop offset="100%" stop-color="#060212" />
     </linearGradient>
 
-    <!-- Nebula Glows -->
-    <radialGradient id="nebula1" cx="30%" cy="40%" r="60%">
-      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.35" />
-      <stop offset="60%" stop-color="#3b0764" stop-opacity="0.1" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    <radialGradient id="nebula1" cx="25%" cy="35%" r="60%">
+      <stop offset="0%" stop-color="#7c3aed" stop-opacity="0.4" />
+      <stop offset="70%" stop-color="#3b0764" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0" />
     </radialGradient>
-    <radialGradient id="nebula2" cx="75%" cy="60%" r="50%">
-      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.25" />
-      <stop offset="70%" stop-color="#4c1d95" stop-opacity="0.05" />
-      <stop offset="100%" stop-color="#000000" stop-opacity="0" />
+    <radialGradient id="nebula2" cx="80%" cy="65%" r="55%">
+      <stop offset="0%" stop-color="#e879f9" stop-opacity="0.3" />
+      <stop offset="75%" stop-color="#4c1d95" stop-opacity="0.05" />
+      <stop offset="100%" stop-color="#000" stop-opacity="0" />
     </radialGradient>
 
-    <!-- Border Glow -->
     <linearGradient id="cosmicBorder" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#4c1d95" />
-      <stop offset="30%" stop-color="#a855f7" />
-      <stop offset="70%" stop-color="#e879f9" />
+      <stop offset="35%" stop-color="#c084fc" />
+      <stop offset="70%" stop-color="#f472b6" />
       <stop offset="100%" stop-color="#5b21b6" />
     </linearGradient>
 
@@ -35,35 +51,27 @@
     </linearGradient>
   </defs>
 
-  <!-- Background Frame -->
   <rect x="2" y="2" width="896" height="186" rx="16" fill="url(#spaceGrad)" stroke="url(#cosmicBorder)" stroke-width="1.5" />
-  <rect x="2" y="2" width="896" height="186" rx="16" fill="url(#nebula1)" />
-  <rect x="2" y="2" width="896" height="186" rx="16" fill="url(#nebula2)" />
+  <rect class="nebula" x="2" y="2" width="896" height="186" rx="16" fill="url(#nebula1)" />
+  <rect class="nebula" x="2" y="2" width="896" height="186" rx="16" fill="url(#nebula2)" />
 
-  <!-- Twinkling Stars -->
+  <!-- Animated Stars -->
   <g fill="#ffffff">
-    <circle cx="80" cy="35" r="1" opacity="0.8" />
-    <circle cx="140" cy="140" r="1.5" opacity="0.9" />
-    <circle cx="220" cy="50" r="1" opacity="0.6" />
-    <circle cx="310" cy="160" r="1.2" opacity="0.7" />
-    <circle cx="420" cy="30" r="1.8" opacity="0.9" />
-    <circle cx="580" cy="150" r="1" opacity="0.8" />
-    <circle cx="670" cy="45" r="1.5" opacity="0.9" />
-    <circle cx="780" cy="130" r="1" opacity="0.6" />
-    <circle cx="840" cy="60" r="1.2" opacity="0.85" />
-    <circle cx="75" cy="120" r="0.8" opacity="0.5" />
-    <circle cx="820" cy="160" r="1.4" opacity="0.75" />
+    <circle class="star1" cx="70" cy="30" r="1.2" />
+    <circle class="star2" cx="150" cy="145" r="1.8" />
+    <circle class="star3" cx="230" cy="45" r="1" />
+    <circle class="star1" cx="330" cy="165" r="1.5" />
+    <circle class="star2" cx="440" cy="25" r="2" />
+    <circle class="star3" cx="590" cy="155" r="1.2" />
+    <circle class="star1" cx="680" cy="40" r="1.7" />
+    <circle class="star2" cx="790" cy="135" r="1" />
+    <circle class="star3" cx="845" cy="55" r="1.5" />
+    <circle class="star2" cx="810" cy="165" r="1.3" />
   </g>
 
-  <!-- Title -->
   <text x="450" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="900" font-size="44" fill="url(#titleGrad)" text-anchor="middle" letter-spacing="2">dust.exe</text>
-  
-  <!-- Subtitle -->
   <text x="450" y="116" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="14" fill="#c4b5fd" text-anchor="middle" letter-spacing="4">SYSTEM ARCHITECT &amp; FULL-STACK ENGINEER</text>
 
-  <!-- Divider Line -->
   <line x1="220" y1="138" x2="680" y2="138" stroke="url(#cosmicBorder)" stroke-width="1.2" stroke-opacity="0.6" />
-
-  <!-- Tech Strip -->
   <text x="450" y="160" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="600" font-size="11" fill="#f0abfc" text-anchor="middle" letter-spacing="3">PYTHON  â€¢  TYPESCRIPT  â€¢  C#  â€¢  FASTAPI  â€¢  POSTGRESQL  â€¢  DOCKER  â€¢  LINUX</text>
 </svg>

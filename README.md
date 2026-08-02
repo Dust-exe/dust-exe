@@ -1,13 +1,12 @@
 <div align="center">
 
+  <img width="100%" src="assets/header-banner.svg" alt="dust.exe header banner" />
+
+  <br/><br/>
+
   <img src="logo.png" alt="dust.exe logo" width="130" />
 
-  # Kaan (dust.exe)
-  ### **System Architect & Full-Stack Engineer**
-
-  *Designing scalable backend architectures, high-availability Linux infrastructure, and robust CI/CD pipelines.*
-
-  <br/>
+  <br/><br/>
 
   [![Website](https://img.shields.io/badge/Website-dust--studio.com-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://dust-studio.com/)
   [![OST Studio](https://img.shields.io/badge/OST%20Studio-oststudio.net-a855f7?style=for-the-badge&logo=react&logoColor=white)](https://oststudio.net/)
@@ -25,7 +24,7 @@
 
 ---
 
-## Executive Summary & Engineering Philosophy
+<img width="100%" src="assets/banner-executive-summary.svg" alt="Executive Summary &amp; Architecture" />
 
 As a System Architect and Full-Stack Engineer, I specialize in architecting distributed backend services, high-throughput microservices, containerized deployments, and automated release pipelines.
 
@@ -35,7 +34,7 @@ As a System Architect and Full-Stack Engineer, I specialize in architecting dist
 
 ---
 
-## Featured Ecosystems & Open-Source Engineering
+<img width="100%" src="assets/banner-featured-ecosystem.svg" alt="Featured Ecosystem — OST Studio" />
 
 <p align="center">
   <a href="https://oststudio.net/" title="OST Studio">
@@ -53,6 +52,8 @@ An end-to-end multi-tenant platform unifying multi-instance Discord services, fu
 
 ---
 
+<img width="100%" src="assets/banner-open-source.svg" alt="Open-Source Engineering" />
+
 ### [Dust-vpn](https://github.com/Dust-exe/Dust-vpn) — *Open-Source Windows VPN Client*
 An open-source desktop client built for managing custom WireGuard and AmneziaWG servers.
 
@@ -67,7 +68,7 @@ An open-source desktop client built for managing custom WireGuard and AmneziaWG 
 
 ---
 
-## Technical Competencies & Tooling
+<img width="100%" src="assets/banner-technical-stack.svg" alt="Technical Competencies &amp; Toolkit" />
 
 <div align="center">
 
@@ -87,7 +88,7 @@ An open-source desktop client built for managing custom WireGuard and AmneziaWG 
 
 ---
 
-## Engineering Analytics & Metrics
+<img width="100%" src="assets/banner-engineering-metrics.svg" alt="Engineering Metrics &amp; Analytics" />
 
 <div align="center">
 

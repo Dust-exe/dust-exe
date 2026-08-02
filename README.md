@@ -78,13 +78,7 @@ An open-source desktop client built for managing custom WireGuard and AmneziaWG 
 
 <br/>
 
-| Domain | Technologies & Frameworks |
-| :--- | :--- |
-| **Languages** | Python, TypeScript, C#, JavaScript, SQL |
-| **Backend & APIs** | FastAPI, Node.js, Express, Async SQLAlchemy, RESTful APIs, OAuth2 |
-| **Data & Persistence** | PostgreSQL, Redis, SQLite (WAL Mode), Alembic Migrations |
-| **Frontend & UI** | React 18, TypeScript, Vite, TailwindCSS, Framer Motion |
-| **DevOps & Infrastructure** | Docker, Nginx, Linux Infrastructure, VDS Administration, GitHub Actions, WireGuard |
+<img width="100%" src="assets/tech-stack-table.svg" alt="Technical Stack Table" />
 
 ---
 

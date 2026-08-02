@@ -3,7 +3,7 @@
   <img src="logo.png" alt="dust.exe logo" width="130" />
 
   # Kaan (dust.exe)
-  ### **System Architect & Senior Full-Stack Engineer**
+  ### **System Architect & Full-Stack Engineer**
 
   *Designing scalable backend architectures, high-availability Linux infrastructure, and robust CI/CD pipelines.*
 
@@ -27,7 +27,7 @@
 
 ## Executive Summary & Engineering Philosophy
 
-As a System Architect and Senior Full-Stack Engineer, I specialize in architecting distributed backend services, high-throughput microservices, containerized deployments, and automated release pipelines.
+As a System Architect and Full-Stack Engineer, I specialize in architecting distributed backend services, high-throughput microservices, containerized deployments, and automated release pipelines.
 
 * **Architectural Strategy:** Decoupled edge clients (e.g., Discord daemons, desktop clients) act strictly as operational interfaces. Business logic, state management, and data persistence are encapsulated within authoritative **FastAPI + PostgreSQL** microservices.
 * **Infrastructure & VDS Management:** Production-grade deployments leverage **Linux infrastructure**, **Docker Compose** orchestration, **Nginx** reverse proxying, **systemd** process supervision, and zero-downtime runtime configurations.

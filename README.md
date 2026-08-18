@@ -1,6 +1,6 @@
 <div align="center">
 
-  <img width="100%" src="assets/header-banner.svg" alt="dust.exe header banner" />
+  <img width="100%" src="assets/header-banner.svg?v=3" alt="dust.exe header banner" />
 
   <br/><br/>
 
@@ -24,35 +24,35 @@
 
 ---
 
-<img width="100%" src="assets/banner-executive-summary.svg" alt="Executive Summary &amp; Architecture" />
+<img width="100%" src="assets/banner-executive-summary.svg?v=3" alt="Executive Summary &amp; Architecture" />
 
 <br/>
 
-<img width="100%" src="assets/card-executive-summary.svg" alt="Executive Summary Card" />
+<img width="100%" src="assets/card-executive-summary.svg?v=3" alt="Executive Summary Card" />
 
 ---
 
-<img width="100%" src="assets/banner-featured-ecosystem.svg" alt="Distributed Multi-Tenant Architecture — Case Study" />
+<img width="100%" src="assets/banner-featured-ecosystem.svg?v=3" alt="Distributed Multi-Tenant Architecture — Case Study" />
 
 <br/>
 
-<img width="100%" src="assets/card-ost-studio.svg" alt="Multi-Tenant Architecture Case Study Card" />
+<img width="100%" src="assets/card-ost-studio.svg?v=3" alt="Multi-Tenant Architecture Case Study Card" />
 
 ---
 
-<img width="100%" src="assets/banner-open-source.svg" alt="Open-Source Engineering" />
+<img width="100%" src="assets/banner-open-source.svg?v=3" alt="Open-Source Engineering" />
 
 <br/>
 
-<img width="100%" src="assets/card-dust-vpn.svg" alt="Dust-vpn Card" />
+<img width="100%" src="assets/card-dust-vpn.svg?v=3" alt="Dust-vpn Card" />
 
 <br/>
 
-<img width="100%" src="assets/card-dustfx-replay.svg" alt="DustFX &amp; DustReplay Card" />
+<img width="100%" src="assets/card-dustfx-replay.svg?v=3" alt="DustFX &amp; DustReplay Card" />
 
 ---
 
-<img width="100%" src="assets/banner-technical-stack.svg" alt="Technical Competencies &amp; Toolkit" />
+<img width="100%" src="assets/banner-technical-stack.svg?v=3" alt="Technical Competencies &amp; Toolkit" />
 
 <div align="center">
 
@@ -62,11 +62,11 @@
 
 <br/>
 
-<img width="100%" src="assets/tech-stack-table.svg" alt="Technical Stack Table" />
+<img width="100%" src="assets/tech-stack-table.svg?v=3" alt="Technical Stack Table" />
 
 ---
 
-<img width="100%" src="assets/banner-engineering-metrics.svg" alt="Engineering Metrics &amp; Analytics" />
+<img width="100%" src="assets/banner-engineering-metrics.svg?v=3" alt="Engineering Metrics &amp; Analytics" />
 
 <div align="center">
 

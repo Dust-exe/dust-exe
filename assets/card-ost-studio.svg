@@ -34,7 +34,7 @@
   </g>
 
   <!-- Header Title -->
-  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="18" fill="#f5d0fe">OST Studio Architecture — <tspan font-weight="600" font-size="14" fill="#c4b5fd">Multi-Tenant Platform Case Study</tspan></text>
+  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="18" fill="#f5d0fe">Enterprise Microservices Architecture — <tspan font-weight="600" font-size="14" fill="#c4b5fd">Multi-Tenant Platform Case Study</tspan></text>
   <text x="30" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#e9d5ff">High-availability multi-tenant ecosystem unifying microservices, OAuth2 session security, and real-time event telemetry.</text>
 
   <!-- Tech Stack Grid Cards -->

@@ -9,7 +9,7 @@
   <br/><br/>
 
   [![Website](https://img.shields.io/badge/Website-dust--studio.com-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://dust-studio.com/)
-  [![Architecture Case Study](https://img.shields.io/badge/Case%20Study-OST%20Studio%20Arch-a855f7?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](#enterprise-ecosystem-architecture-%E2%80%94-case-study)
+  [![Distributed Architecture](https://img.shields.io/badge/Architecture-Multi--Tenant%20System-a855f7?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](#distributed-multi-tenant-architecture-%E2%80%94-case-study)
   [![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/E8K6rczdb2)
   [![Email](https://img.shields.io/badge/Email-dustexee%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dustexee@gmail.com)
 
@@ -32,15 +32,11 @@
 
 ---
 
-<img width="100%" src="assets/banner-featured-ecosystem.svg" alt="Enterprise Ecosystem Architecture — Case Study" />
+<img width="100%" src="assets/banner-featured-ecosystem.svg" alt="Distributed Multi-Tenant Architecture — Case Study" />
 
 <br/>
 
-<p align="center">
-  <img src="ost-logo.png" alt="OST Studio Logo" width="180" />
-</p>
-
-<img width="100%" src="assets/card-ost-studio.svg" alt="OST Studio Case Study Card" />
+<img width="100%" src="assets/card-ost-studio.svg" alt="Multi-Tenant Architecture Case Study Card" />
 
 ---
 

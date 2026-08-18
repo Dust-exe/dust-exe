@@ -1,14 +1,20 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 190" width="100%" height="100%">
   <defs>
     <style>
-      @keyframes twinkleA { 0%, 100% { opacity: 0.2; transform: scale(0.85); } 50% { opacity: 1; transform: scale(1.2); } }
-      @keyframes twinkleB { 0%, 100% { opacity: 0.9; transform: scale(1.1); } 40% { opacity: 0.2; transform: scale(0.7); } }
-      @keyframes twinkleC { 0%, 100% { opacity: 0.3; transform: scale(0.9); } 70% { opacity: 1; transform: scale(1.25); } }
-      @keyframes nebulaDrift { 0%, 100% { opacity: 0.35; transform: translate(0, 0); } 50% { opacity: 0.6; transform: translate(8px, -5px); } }
+      @keyframes twinkleA { 0%, 100% { opacity: 0.15; } 50% { opacity: 0.95; } }
+      @keyframes twinkleB { 0%, 100% { opacity: 0.85; } 45% { opacity: 0.15; } }
+      @keyframes twinkleC { 0%, 100% { opacity: 0.25; } 65% { opacity: 1.00; } }
+      @keyframes twinkleD { 0%, 100% { opacity: 0.90; } 55% { opacity: 0.10; } }
+      @keyframes twinkleE { 0%, 100% { opacity: 0.20; } 75% { opacity: 0.90; } }
+      @keyframes twinkleF { 0%, 100% { opacity: 0.80; } 35% { opacity: 0.20; } }
+      @keyframes nebulaDrift { 0%, 100% { opacity: 0.25; } 50% { opacity: 0.45; } }
 
-      .star-a { animation: twinkleA 3.4s infinite ease-in-out; }
-      .star-b { animation: twinkleB 2.6s infinite ease-in-out 0.4s; }
-      .star-c { animation: twinkleC 4.2s infinite ease-in-out 1.1s; }
+      .star-a { animation: twinkleA 2.1s infinite ease-in-out 0.0s; }
+      .star-b { animation: twinkleB 3.3s infinite ease-in-out 0.5s; }
+      .star-c { animation: twinkleC 1.7s infinite ease-in-out 1.1s; }
+      .star-d { animation: twinkleD 2.8s infinite ease-in-out 0.3s; }
+      .star-e { animation: twinkleE 3.9s infinite ease-in-out 1.5s; }
+      .star-f { animation: twinkleF 2.4s infinite ease-in-out 0.8s; }
       .nebula { animation: nebulaDrift 8s infinite ease-in-out; }
     </style>
     <linearGradient id="spaceGrad" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -51,13 +57,13 @@
     <circle class="star-a" cx="120" cy="40" r="1.2" opacity="0.8" />
     <circle class="star-b" cx="240" cy="110" r="1.5" opacity="0.7" />
     <circle class="star-c" cx="380" cy="30" r="1.0" opacity="0.6" />
-    <circle class="star-a" cx="440" cy="85" r="1.4" opacity="0.9" />
-    <circle class="star-b" cx="560" cy="140" r="1.1" opacity="0.75" />
-    <circle class="star-c" cx="680" cy="45" r="1.6" opacity="0.85" />
+    <circle class="star-d" cx="440" cy="85" r="1.4" opacity="0.9" />
+    <circle class="star-e" cx="560" cy="140" r="1.1" opacity="0.75" />
+    <circle class="star-f" cx="680" cy="45" r="1.6" opacity="0.85" />
     <circle class="star-a" cx="760" cy="120" r="1.2" opacity="0.65" />
     <circle class="star-b" cx="840" cy="35" r="1.3" opacity="0.9" />
     <circle class="star-c" cx="60" cy="150" r="1.1" opacity="0.5" />
-    <circle class="star-a" cx="300" cy="160" r="1.4" opacity="0.7" />
+    <circle class="star-d" cx="300" cy="160" r="1.4" opacity="0.7" />
   </g>
 
   <!-- Title & Subtitle -->

@@ -1,20 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 210" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 220" width="100%" height="100%">
   <defs>
-        <style>
-      @keyframes twinkleA { 0%, 100% { opacity: 0.15; transform: scale(0.85) translate(0, 0); } 50% { opacity: 0.95; transform: scale(1.15) translate(1px, -1px); } }
-      @keyframes twinkleB { 0%, 100% { opacity: 0.85; transform: scale(1.1) translate(0, 0); } 40% { opacity: 0.2; transform: scale(0.75) translate(-1px, 0.8px); } }
-      @keyframes twinkleC { 0%, 100% { opacity: 0.3; transform: scale(0.9) translate(0, 0); } 70% { opacity: 1; transform: scale(1.2) translate(0.8px, 1px); } }
-      @keyframes twinkleD { 0%, 100% { opacity: 0.9; transform: scale(1); } 50% { opacity: 0.15; transform: scale(0.65); } }
-      @keyframes twinkleE { 0%, 100% { opacity: 0.25; transform: scale(0.8); } 60% { opacity: 0.85; transform: scale(1.1); } }
-      @keyframes twinkleF { 0%, 100% { opacity: 0.7; transform: scale(1) translate(0, 0); } 30% { opacity: 0.1; transform: scale(0.7) translate(0.5px, -0.5px); } }
+    <style>
+      @keyframes twinkleA { 0%, 100% { opacity: 0.15; transform: scale(0.85); } 50% { opacity: 0.95; transform: scale(1.15); } }
+      @keyframes twinkleB { 0%, 100% { opacity: 0.85; transform: scale(1.1); } 40% { opacity: 0.2; transform: scale(0.75); } }
       @keyframes nebulaDrift { 0%, 100% { opacity: 0.25; transform: translate(0, 0); } 50% { opacity: 0.45; transform: translate(6px, -4px); } }
 
       .star-a { animation: twinkleA 3.4s infinite ease-in-out; }
       .star-b { animation: twinkleB 2.6s infinite ease-in-out 0.4s; }
-      .star-c { animation: twinkleC 4.2s infinite ease-in-out 1.1s; }
-      .star-d { animation: twinkleD 3.0s infinite ease-in-out 1.8s; }
-      .star-e { animation: twinkleE 2.1s infinite ease-in-out 0.7s; }
-      .star-f { animation: twinkleF 3.8s infinite ease-in-out 2.3s; }
       .nebula { animation: nebulaDrift 10s infinite ease-in-out; }
     </style>
     <linearGradient id="oBg" x1="0%" y1="0%" x2="100%" y2="100%">
@@ -23,7 +15,7 @@
       <stop offset="100%" stop-color="#060212" />
     </linearGradient>
     <radialGradient id="oNebula" cx="70%" cy="40%" r="55%">
-      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.25" />
+      <stop offset="0%" stop-color="#d946ef" stop-opacity="0.3" />
       <stop offset="100%" stop-color="#000" stop-opacity="0" />
     </radialGradient>
     <linearGradient id="oBorder" x1="0%" y1="0%" x2="100%" y2="0%">
@@ -33,98 +25,42 @@
     </linearGradient>
   </defs>
 
-  <rect x="2" y="2" width="896" height="206" rx="14" fill="url(#oBg)" stroke="url(#oBorder)" stroke-width="1.2" />
-  <rect class="nebula" x="2" y="2" width="896" height="206" rx="14" fill="url(#oNebula)" />
+  <rect x="2" y="2" width="896" height="216" rx="14" fill="url(#oBg)" stroke="url(#oBorder)" stroke-width="1.4" />
+  <rect class="nebula" x="2" y="2" width="896" height="216" rx="14" fill="url(#oNebula)" />
 
   <g fill="#ffffff">
-    <circle class="star-a" cx="205" cy="100" r="0.7" opacity="0.38" />
-    <circle class="star-d" cx="877" cy="119" r="1.1" opacity="0.3" />
-    <circle class="star-a" cx="642" cy="111" r="0.7" opacity="0.67" />
-    <circle class="star-d" cx="418" cy="91" r="1.1" opacity="0.61" />
-    <circle class="star-a" cx="100" cy="53" r="1.1" opacity="0.2" />
-    <circle class="star-b" cx="400" cy="142" r="0.7" opacity="0.22" />
-    <circle class="star-a" cx="212" cy="25" r="0.7" opacity="0.66" />
-    <circle class="star-a" cx="138" cy="47" r="1.1" opacity="0.65" />
-    <circle class="star-d" cx="320" cy="33" r="0.7" opacity="0.43" />
-    <circle class="star-b" cx="825" cy="155" r="1.1" opacity="0.35" />
-    <circle class="star-b" cx="883" cy="95" r="0.7" opacity="0.54" />
-    <circle class="star-a" cx="876" cy="145" r="1.5" opacity="0.77" />
-    <circle class="star-d" cx="269" cy="91" r="0.7" opacity="0.84" />
-    <circle class="star-c" cx="573" cy="197" r="0.7" opacity="0.57" />
-    <circle class="star-f" cx="245" cy="155" r="0.7" opacity="0.36" />
-    <circle class="star-e" cx="862" cy="138" r="0.7" opacity="0.25" />
-    <circle class="star-a" cx="603" cy="192" r="1.1" opacity="0.22" />
-    <circle class="star-d" cx="691" cy="15" r="0.7" opacity="0.67" />
-    <circle class="star-b" cx="385" cy="58" r="0.7" opacity="0.45" />
-    <circle class="star-e" cx="819" cy="164" r="2.0" opacity="0.68" />
-    <circle class="star-e" cx="838" cy="106" r="0.7" opacity="0.87" />
-    <circle class="star-f" cx="218" cy="171" r="0.7" opacity="0.56" />
-    <circle class="star-a" cx="286" cy="124" r="0.7" opacity="0.29" />
-    <circle class="star-d" cx="303" cy="123" r="0.7" opacity="0.3" />
-    <circle class="star-e" cx="547" cy="127" r="1.1" opacity="0.27" />
-    <circle class="star-d" cx="22" cy="57" r="0.7" opacity="0.42" />
-    <circle class="star-a" cx="154" cy="140" r="0.7" opacity="0.29" />
-    <circle class="star-a" cx="162" cy="133" r="0.7" opacity="0.76" />
-    <circle class="star-a" cx="822" cy="174" r="0.7" opacity="0.45" />
-    <circle class="star-a" cx="729" cy="30" r="0.7" opacity="0.22" />
-    <circle class="star-d" cx="299" cy="122" r="0.7" opacity="0.25" />
-    <circle class="star-e" cx="300" cy="162" r="0.7" opacity="0.86" />
-    <circle class="star-d" cx="870" cy="96" r="1.1" opacity="0.45" />
-    <circle class="star-f" cx="559" cy="53" r="0.7" opacity="0.87" />
-    <circle class="star-e" cx="608" cy="116" r="0.7" opacity="0.35" />
-    <circle class="star-c" cx="663" cy="48" r="1.1" opacity="0.4" />
-    <circle class="star-d" cx="799" cy="165" r="0.7" opacity="0.89" />
-    <circle class="star-a" cx="510" cy="51" r="1.1" opacity="0.76" />
-    <circle class="star-b" cx="333" cy="28" r="0.7" opacity="0.77" />
-    <circle class="star-e" cx="425" cy="54" r="1.1" opacity="0.71" />
-    <circle class="star-a" cx="529" cy="21" r="0.7" opacity="0.44" />
-    <circle class="star-c" cx="680" cy="104" r="1.1" opacity="0.43" />
-    <circle class="star-c" cx="124" cy="37" r="0.7" opacity="0.23" />
-    <circle class="star-d" cx="159" cy="35" r="0.7" opacity="0.75" />
-    <circle class="star-a" cx="369" cy="96" r="0.7" opacity="0.62" />
-    <circle class="star-f" cx="525" cy="51" r="1.5" opacity="0.72" />
-    <circle class="star-d" cx="459" cy="91" r="2.0" opacity="0.68" />
-    <circle class="star-b" cx="747" cy="74" r="0.7" opacity="0.35" />
-    <circle class="star-e" cx="75" cy="101" r="0.7" opacity="0.67" />
-    <circle class="star-a" cx="209" cy="187" r="1.5" opacity="0.66" />
-    <circle class="star-f" cx="308" cy="31" r="0.7" opacity="0.43" />
-    <circle class="star-d" cx="132" cy="18" r="0.7" opacity="0.73" />
-    <circle class="star-d" cx="492" cy="122" r="1.1" opacity="0.77" />
-    <circle class="star-e" cx="622" cy="42" r="0.7" opacity="0.34" />
-    <circle class="star-c" cx="732" cy="185" r="2.0" opacity="0.7" />
-    <circle class="star-c" cx="822" cy="23" r="0.7" opacity="0.46" />
-    <circle class="star-b" cx="580" cy="62" r="1.1" opacity="0.48" />
-    <circle class="star-c" cx="363" cy="69" r="0.7" opacity="0.59" />
-    <circle class="star-c" cx="710" cy="15" r="1.1" opacity="0.67" />
-    <circle class="star-f" cx="432" cy="133" r="1.1" opacity="0.88" />
-    <circle class="star-f" cx="60" cy="93" r="0.7" opacity="0.78" />
-    <circle class="star-b" cx="372" cy="39" r="1.1" opacity="0.48" />
-    <circle class="star-a" cx="71" cy="147" r="1.1" opacity="0.27" />
-    <circle class="star-b" cx="250" cy="165" r="0.7" opacity="0.49" />
-    <circle class="star-a" cx="348" cy="30" r="0.7" opacity="0.48" />
+    <circle class="star-a" cx="150" cy="40" r="1.1" opacity="0.6" />
+    <circle class="star-b" cx="780" cy="180" r="1.4" opacity="0.7" />
   </g>
 
+  <!-- Header Title -->
+  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="18" fill="#f5d0fe">OST Studio Architecture — <tspan font-weight="600" font-size="14" fill="#c4b5fd">Multi-Tenant Platform Case Study</tspan></text>
+  <text x="30" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#e9d5ff">High-availability multi-tenant ecosystem unifying microservices, OAuth2 session security, and real-time event telemetry.</text>
 
-  <!-- Title Header -->
-  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="18" fill="#f5d0fe">OST Studio - <tspan font-weight="400" font-style="italic" font-size="14" fill="#c4b5fd">Flagship Distributed Ecosystem (oststudio.net)</tspan></text>
-  <text x="30" y="60" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#e9d5ff">End-to-end multi-tenant platform unifying Discord services, full-stack admin panels, and real-time XP telemetry.</text>
+  <!-- Tech Stack Grid Cards -->
+  <g transform="translate(30, 78)">
+    <!-- Card 1: Frontend -->
+    <rect x="0" y="0" width="410" height="46" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.5" />
+    <text x="14" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">Frontend &amp; UX Engine:</text>
+    <text x="150" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">React 18, TypeScript, Vite, TailwindCSS</text>
+    <text x="14" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="11" fill="#a78bfa">Framer Motion dynamic animations, responsive SPA design</text>
 
-  <!-- Tech Stack Grid -->
-  <g transform="translate(30, 80)">
-    <rect x="0" y="0" width="410" height="42" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.4" />
-    <text x="14" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">Frontend:</text>
-    <text x="85" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">React 18, TypeScript, Vite, TailwindCSS, Framer Motion</text>
+    <!-- Card 2: Backend -->
+    <rect x="430" y="0" width="410" height="46" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.5" />
+    <text x="444" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">Backend &amp; API Microservices:</text>
+    <text x="616" y="20" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">FastAPI, Python, REST</text>
+    <text x="444" y="36" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="11" fill="#a78bfa">Async SQLAlchemy, Pydantic validation, OAuth2 JWT auth</text>
 
-    <rect x="430" y="0" width="410" height="42" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.4" />
-    <text x="444" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">Backend &amp; API:</text>
-    <text x="538" y="25" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">FastAPI, Async SQLAlchemy, OAuth2 Session Mgmt</text>
+    <!-- Card 3: Storage -->
+    <rect x="0" y="58" width="410" height="46" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.5" />
+    <text x="14" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">Data Persistence &amp; Caching:</text>
+    <text x="175" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">PostgreSQL + Alembic, Redis</text>
+    <text x="14" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="11" fill="#a78bfa">SQLite WAL mode edge telemetry storage, migration scripts</text>
 
-    <rect x="0" y="52" width="410" height="42" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.4" />
-    <text x="14" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">Data Mgmt:</text>
-    <text x="95" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">PostgreSQL + Alembic migrations, SQLite WAL edge</text>
-
-    <rect x="430" y="52" width="410" height="42" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.4" />
-    <text x="444" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">DevOps &amp; Infra:</text>
-    <text x="548" y="77" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">Docker Compose, Linux VDS, Nginx, GitHub Actions</text>
+    <!-- Card 4: DevOps -->
+    <rect x="430" y="58" width="410" height="46" rx="8" fill="#1e0b38" stroke="#7c3aed" stroke-opacity="0.5" />
+    <text x="444" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="12" fill="#c084fc">DevOps &amp; Infrastructure:</text>
+    <text x="596" y="78" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="12" fill="#f5f3ff">Docker Compose, Linux VDS</text>
+    <text x="444" y="94" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="11" fill="#a78bfa">Nginx reverse proxy, SSL termination, systemd supervision</text>
   </g>
 </svg>

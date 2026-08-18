@@ -9,7 +9,7 @@
   <br/><br/>
 
   [![Website](https://img.shields.io/badge/Website-dust--studio.com-7c3aed?style=for-the-badge&logo=vercel&logoColor=white)](https://dust-studio.com/)
-  [![OST Studio](https://img.shields.io/badge/OST%20Studio-oststudio.net-a855f7?style=for-the-badge&logo=react&logoColor=white)](https://oststudio.net/)
+  [![Architecture Case Study](https://img.shields.io/badge/Case%20Study-OST%20Studio%20Arch-a855f7?style=for-the-badge&logo=diagramsdotnet&logoColor=white)](#enterprise-ecosystem-architecture-%E2%80%94-case-study)
   [![Discord](https://img.shields.io/badge/Discord-Community-5865F2?style=for-the-badge&logo=discord&logoColor=white)](https://discord.gg/E8K6rczdb2)
   [![Email](https://img.shields.io/badge/Email-dustexee%40gmail.com-ea4335?style=for-the-badge&logo=gmail&logoColor=white)](mailto:dustexee@gmail.com)
 
@@ -32,17 +32,15 @@
 
 ---
 
-<img width="100%" src="assets/banner-featured-ecosystem.svg" alt="Featured Ecosystem - OST Studio" />
+<img width="100%" src="assets/banner-featured-ecosystem.svg" alt="Enterprise Ecosystem Architecture — Case Study" />
 
 <br/>
 
 <p align="center">
-  <a href="https://oststudio.net/" title="OST Studio">
-    <img src="ost-logo.png" alt="OST Studio Logo" width="180" />
-  </a>
+  <img src="ost-logo.png" alt="OST Studio Logo" width="180" />
 </p>
 
-<img width="100%" src="assets/card-ost-studio.svg" alt="OST Studio Card" />
+<img width="100%" src="assets/card-ost-studio.svg" alt="OST Studio Case Study Card" />
 
 ---
 
@@ -62,7 +60,7 @@
 
 <div align="center">
 
-  <img src="https://skillicons.dev/icons?i=py,ts,cs,react,nodejs,express,fastapi,postgres,redis,sqlite,docker,nginx,linux,ubuntu,githubactions,git,github&theme=dark&perline=9" alt="Technical Stack" />
+  <img src="https://skillicons.dev/icons?i=py,ts,cs,react,nodejs,express,fastapi,postgres,redis,sqlite,docker,nginx,linux,ubuntu,githubactions,git,github,tailwind,vite&theme=dark&perline=10" alt="Technical Stack" />
 
 </div>
 

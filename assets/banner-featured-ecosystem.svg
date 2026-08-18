@@ -1,21 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 48" width="100%" height="100%">
   <defs>
-        <style>
-      @keyframes twinkleA { 0%, 100% { opacity: 0.15; transform: scale(0.85) translate(0, 0); } 50% { opacity: 0.95; transform: scale(1.15) translate(1px, -1px); } }
-      @keyframes twinkleB { 0%, 100% { opacity: 0.85; transform: scale(1.1) translate(0, 0); } 40% { opacity: 0.2; transform: scale(0.75) translate(-1px, 0.8px); } }
-      @keyframes twinkleC { 0%, 100% { opacity: 0.3; transform: scale(0.9) translate(0, 0); } 70% { opacity: 1; transform: scale(1.2) translate(0.8px, 1px); } }
-      @keyframes twinkleD { 0%, 100% { opacity: 0.9; transform: scale(1); } 50% { opacity: 0.15; transform: scale(0.65); } }
-      @keyframes twinkleE { 0%, 100% { opacity: 0.25; transform: scale(0.8); } 60% { opacity: 0.85; transform: scale(1.1); } }
-      @keyframes twinkleF { 0%, 100% { opacity: 0.7; transform: scale(1) translate(0, 0); } 30% { opacity: 0.1; transform: scale(0.7) translate(0.5px, -0.5px); } }
-      @keyframes nebulaDrift { 0%, 100% { opacity: 0.25; transform: translate(0, 0); } 50% { opacity: 0.45; transform: translate(6px, -4px); } }
+    <style>
+      @keyframes twinkleA { 0%, 100% { opacity: 0.15; transform: scale(0.85); } 50% { opacity: 0.95; transform: scale(1.15); } }
+      @keyframes twinkleB { 0%, 100% { opacity: 0.85; transform: scale(1.1); } 40% { opacity: 0.2; transform: scale(0.75); } }
 
       .star-a { animation: twinkleA 3.4s infinite ease-in-out; }
       .star-b { animation: twinkleB 2.6s infinite ease-in-out 0.4s; }
-      .star-c { animation: twinkleC 4.2s infinite ease-in-out 1.1s; }
-      .star-d { animation: twinkleD 3.0s infinite ease-in-out 1.8s; }
-      .star-e { animation: twinkleE 2.1s infinite ease-in-out 0.7s; }
-      .star-f { animation: twinkleF 3.8s infinite ease-in-out 2.3s; }
-      .nebula { animation: nebulaDrift 10s infinite ease-in-out; }
     </style>
     <linearGradient id="gBg" x1="0%" y1="0%" x2="100%" y2="0%">
       <stop offset="0%" stop-color="#060210" />
@@ -39,53 +29,9 @@
   <rect x="2" y="2" width="896" height="44" rx="10" fill="url(#gBg)" stroke="url(#gBorder)" stroke-width="1.2" />
   
   <g fill="#ffffff">
-    <circle class="star-e" cx="237" cy="12" r="2.0" opacity="0.48" />
-    <circle class="star-f" cx="90" cy="21" r="1.1" opacity="0.73" />
-    <circle class="star-d" cx="111" cy="14" r="0.7" opacity="0.46" />
-    <circle class="star-a" cx="174" cy="31" r="0.7" opacity="0.57" />
-    <circle class="star-d" cx="586" cy="21" r="0.7" opacity="0.55" />
-    <circle class="star-c" cx="405" cy="26" r="1.1" opacity="0.73" />
-    <circle class="star-a" cx="677" cy="28" r="0.7" opacity="0.32" />
-    <circle class="star-f" cx="465" cy="19" r="0.7" opacity="0.66" />
-    <circle class="star-a" cx="519" cy="33" r="1.1" opacity="0.49" />
-    <circle class="star-f" cx="610" cy="11" r="1.1" opacity="0.84" />
-    <circle class="star-d" cx="779" cy="31" r="0.7" opacity="0.65" />
-    <circle class="star-b" cx="754" cy="36" r="0.7" opacity="0.87" />
-    <circle class="star-b" cx="432" cy="25" r="0.7" opacity="0.2" />
-    <circle class="star-c" cx="406" cy="28" r="0.7" opacity="0.8" />
-    <circle class="star-c" cx="734" cy="30" r="0.7" opacity="0.87" />
-    <circle class="star-b" cx="728" cy="29" r="2.0" opacity="0.77" />
-    <circle class="star-c" cx="352" cy="37" r="2.0" opacity="0.82" />
-    <circle class="star-c" cx="15" cy="16" r="1.5" opacity="0.43" />
-    <circle class="star-f" cx="502" cy="37" r="1.5" opacity="0.32" />
-    <circle class="star-a" cx="27" cy="21" r="0.7" opacity="0.87" />
-    <circle class="star-a" cx="48" cy="27" r="0.7" opacity="0.27" />
-    <circle class="star-e" cx="143" cy="22" r="1.5" opacity="0.77" />
-    <circle class="star-c" cx="133" cy="36" r="0.7" opacity="0.6" />
-    <circle class="star-b" cx="445" cy="26" r="0.7" opacity="0.9" />
-    <circle class="star-a" cx="200" cy="31" r="0.7" opacity="0.41" />
-    <circle class="star-b" cx="739" cy="34" r="0.7" opacity="0.85" />
-    <circle class="star-b" cx="384" cy="16" r="1.5" opacity="0.74" />
-    <circle class="star-b" cx="685" cy="30" r="1.5" opacity="0.72" />
-    <circle class="star-d" cx="484" cy="18" r="0.7" opacity="0.33" />
-    <circle class="star-c" cx="538" cy="33" r="0.7" opacity="0.68" />
-    <circle class="star-a" cx="377" cy="20" r="0.7" opacity="0.72" />
-    <circle class="star-e" cx="257" cy="26" r="0.7" opacity="0.38" />
-    <circle class="star-e" cx="261" cy="13" r="1.1" opacity="0.48" />
-    <circle class="star-d" cx="807" cy="12" r="1.5" opacity="0.76" />
-    <circle class="star-d" cx="665" cy="28" r="1.1" opacity="0.52" />
-    <circle class="star-f" cx="806" cy="25" r="0.7" opacity="0.69" />
-    <circle class="star-d" cx="23" cy="20" r="1.5" opacity="0.56" />
-    <circle class="star-c" cx="55" cy="11" r="1.1" opacity="0.55" />
-    <circle class="star-a" cx="177" cy="25" r="0.7" opacity="0.52" />
-    <circle class="star-b" cx="361" cy="29" r="0.7" opacity="0.4" />
-    <circle class="star-d" cx="457" cy="34" r="1.5" opacity="0.85" />
-    <circle class="star-e" cx="680" cy="29" r="0.7" opacity="0.78" />
-    <circle class="star-a" cx="635" cy="13" r="0.7" opacity="0.37" />
-    <circle class="star-b" cx="818" cy="16" r="2.0" opacity="0.44" />
-    <circle class="star-a" cx="758" cy="20" r="0.7" opacity="0.63" />
+    <circle class="star-a" cx="120" cy="20" r="1.1" opacity="0.6" />
+    <circle class="star-b" cx="780" cy="25" r="1.4" opacity="0.7" />
   </g>
 
-
-  <text x="450" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="url(#gText)" text-anchor="middle" letter-spacing="3.5">FEATURED ECOSYSTEM - OST STUDIO</text>
+  <text x="450" y="29" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="14" fill="url(#gText)" text-anchor="middle" letter-spacing="3.5">ENTERPRISE ECOSYSTEM ARCHITECTURE — CASE STUDY</text>
 </svg>

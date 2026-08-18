@@ -1,21 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 110" width="100%" height="100%">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 120" width="100%" height="100%">
   <defs>
-        <style>
-      @keyframes twinkleA { 0%, 100% { opacity: 0.15; transform: scale(0.85) translate(0, 0); } 50% { opacity: 0.95; transform: scale(1.15) translate(1px, -1px); } }
-      @keyframes twinkleB { 0%, 100% { opacity: 0.85; transform: scale(1.1) translate(0, 0); } 40% { opacity: 0.2; transform: scale(0.75) translate(-1px, 0.8px); } }
-      @keyframes twinkleC { 0%, 100% { opacity: 0.3; transform: scale(0.9) translate(0, 0); } 70% { opacity: 1; transform: scale(1.2) translate(0.8px, 1px); } }
-      @keyframes twinkleD { 0%, 100% { opacity: 0.9; transform: scale(1); } 50% { opacity: 0.15; transform: scale(0.65); } }
-      @keyframes twinkleE { 0%, 100% { opacity: 0.25; transform: scale(0.8); } 60% { opacity: 0.85; transform: scale(1.1); } }
-      @keyframes twinkleF { 0%, 100% { opacity: 0.7; transform: scale(1) translate(0, 0); } 30% { opacity: 0.1; transform: scale(0.7) translate(0.5px, -0.5px); } }
-      @keyframes nebulaDrift { 0%, 100% { opacity: 0.25; transform: translate(0, 0); } 50% { opacity: 0.45; transform: translate(6px, -4px); } }
+    <style>
+      @keyframes twinkleA { 0%, 100% { opacity: 0.15; transform: scale(0.85); } 50% { opacity: 0.95; transform: scale(1.15); } }
+      @keyframes twinkleB { 0%, 100% { opacity: 0.85; transform: scale(1.1); } 40% { opacity: 0.2; transform: scale(0.75); } }
 
       .star-a { animation: twinkleA 3.4s infinite ease-in-out; }
       .star-b { animation: twinkleB 2.6s infinite ease-in-out 0.4s; }
-      .star-c { animation: twinkleC 4.2s infinite ease-in-out 1.1s; }
-      .star-d { animation: twinkleD 3.0s infinite ease-in-out 1.8s; }
-      .star-e { animation: twinkleE 2.1s infinite ease-in-out 0.7s; }
-      .star-f { animation: twinkleF 3.8s infinite ease-in-out 2.3s; }
-      .nebula { animation: nebulaDrift 10s infinite ease-in-out; }
     </style>
     <linearGradient id="fBg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" stop-color="#060212" />
@@ -29,62 +19,18 @@
     </linearGradient>
   </defs>
 
-  <rect x="2" y="2" width="896" height="106" rx="14" fill="url(#fBg)" stroke="url(#fBorder)" stroke-width="1.2" />
+  <rect x="2" y="2" width="896" height="116" rx="14" fill="url(#fBg)" stroke="url(#fBorder)" stroke-width="1.4" />
 
   <g fill="#ffffff">
-    <circle class="star-f" cx="627" cy="24" r="1.5" opacity="0.58" />
-    <circle class="star-b" cx="686" cy="26" r="2.0" opacity="0.83" />
-    <circle class="star-a" cx="73" cy="70" r="1.1" opacity="0.67" />
-    <circle class="star-f" cx="334" cy="54" r="1.1" opacity="0.22" />
-    <circle class="star-f" cx="599" cy="36" r="0.7" opacity="0.62" />
-    <circle class="star-d" cx="83" cy="68" r="0.7" opacity="0.27" />
-    <circle class="star-a" cx="69" cy="78" r="2.0" opacity="0.55" />
-    <circle class="star-b" cx="718" cy="88" r="2.0" opacity="0.34" />
-    <circle class="star-b" cx="789" cy="71" r="2.0" opacity="0.74" />
-    <circle class="star-f" cx="66" cy="82" r="1.5" opacity="0.66" />
-    <circle class="star-f" cx="218" cy="63" r="0.7" opacity="0.57" />
-    <circle class="star-b" cx="370" cy="63" r="1.5" opacity="0.53" />
-    <circle class="star-b" cx="118" cy="20" r="0.7" opacity="0.78" />
-    <circle class="star-d" cx="281" cy="73" r="1.1" opacity="0.8" />
-    <circle class="star-e" cx="449" cy="58" r="0.7" opacity="0.29" />
-    <circle class="star-b" cx="871" cy="38" r="0.7" opacity="0.58" />
-    <circle class="star-f" cx="249" cy="80" r="0.7" opacity="0.81" />
-    <circle class="star-d" cx="426" cy="42" r="0.7" opacity="0.26" />
-    <circle class="star-e" cx="198" cy="99" r="1.1" opacity="0.26" />
-    <circle class="star-c" cx="688" cy="35" r="1.1" opacity="0.53" />
-    <circle class="star-a" cx="325" cy="16" r="0.7" opacity="0.31" />
-    <circle class="star-e" cx="621" cy="31" r="1.1" opacity="0.58" />
-    <circle class="star-e" cx="95" cy="38" r="1.1" opacity="0.34" />
-    <circle class="star-c" cx="309" cy="91" r="0.7" opacity="0.45" />
-    <circle class="star-d" cx="838" cy="69" r="0.7" opacity="0.65" />
-    <circle class="star-d" cx="450" cy="82" r="0.7" opacity="0.45" />
-    <circle class="star-e" cx="623" cy="60" r="1.1" opacity="0.33" />
-    <circle class="star-e" cx="183" cy="59" r="0.7" opacity="0.32" />
-    <circle class="star-f" cx="217" cy="72" r="0.7" opacity="0.9" />
-    <circle class="star-d" cx="791" cy="40" r="0.7" opacity="0.73" />
-    <circle class="star-a" cx="771" cy="79" r="0.7" opacity="0.57" />
-    <circle class="star-c" cx="623" cy="87" r="1.1" opacity="0.66" />
-    <circle class="star-c" cx="786" cy="71" r="0.7" opacity="0.79" />
-    <circle class="star-d" cx="472" cy="54" r="1.5" opacity="0.2" />
-    <circle class="star-b" cx="699" cy="72" r="1.1" opacity="0.29" />
-    <circle class="star-d" cx="231" cy="46" r="0.7" opacity="0.73" />
-    <circle class="star-f" cx="154" cy="80" r="2.0" opacity="0.54" />
-    <circle class="star-b" cx="818" cy="25" r="1.1" opacity="0.54" />
-    <circle class="star-a" cx="302" cy="88" r="1.1" opacity="0.4" />
-    <circle class="star-a" cx="490" cy="71" r="1.1" opacity="0.53" />
-    <circle class="star-d" cx="360" cy="48" r="0.7" opacity="0.87" />
-    <circle class="star-f" cx="163" cy="10" r="0.7" opacity="0.39" />
-    <circle class="star-d" cx="271" cy="66" r="0.7" opacity="0.55" />
-    <circle class="star-f" cx="109" cy="75" r="0.7" opacity="0.85" />
-    <circle class="star-a" cx="318" cy="79" r="1.1" opacity="0.67" />
+    <circle class="star-a" cx="180" cy="30" r="1.1" opacity="0.6" />
+    <circle class="star-b" cx="720" cy="80" r="1.4" opacity="0.7" />
   </g>
 
-
-  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#f5d0fe">DustFX &amp; DustReplay</text>
+  <text x="30" y="38" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="800" font-size="16" fill="#f5d0fe">DustFX &amp; DustReplay — <tspan font-weight="400" font-style="italic" font-size="13.5" fill="#c4b5fd">High-Performance Toolkits</tspan></text>
   
-  <text x="30" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#c084fc">DustFX:</text>
-  <text x="95" y="65" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#f5f3ff">Modular C# framework for high-throughput FX processing and performance optimization.</text>
+  <text x="30" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#c084fc">DustFX:</text>
+  <text x="95" y="68" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#f5f3ff">Modular C# framework for high-throughput visual effects processing and runtime performance optimization.</text>
 
-  <text x="30" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#c084fc">DustReplay:</text>
-  <text x="115" y="88" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#f5f3ff">Python-driven event telemetry parser and automated action replay analysis engine.</text>
+  <text x="30" y="93" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="700" font-size="13" fill="#c084fc">DustReplay:</text>
+  <text x="115" y="93" font-family="-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif" font-weight="400" font-size="13" fill="#f5f3ff">Python event telemetry parser &amp; automated action replay analysis engine for real-time telemetry processing.</text>
 </svg>
